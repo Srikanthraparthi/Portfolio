@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Raparthi Srikanth
+Raparthi Srikanth
 Web developer
 
 Show Contacts
 
 Email
-javiyashivam70@gmail.com
+srikanthgoud783813@gmail.com
 
 Phone
-+91 9909870870
++91 8688857150
 
 Birthday
-January 12, 2003
+December 07, 2003
 
 Location
-Gandhinagar, Gujrat, India.
+Hyderbad, Telangana, India.
 
 # navbar
 
