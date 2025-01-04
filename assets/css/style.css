@@ -1937,10 +1937,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   .showcase-item {
       width: 100%; /* Display 1 item per row */
   }
-footer {
+ footer {
       text-align: center;
-      background-color: #f1f1f1;
+      background-color: #333; /* Dark background for contrast */
       padding: 10px 0;
       font-size: 16px;
-      color: #333;
+      color: white; /* White text color */
+      font-weight: bold; /* Bold text */
     }
