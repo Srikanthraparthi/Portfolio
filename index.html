@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <style>
     .download-btn {
       display: flex;
@@ -21,7 +22,9 @@
       transition: background-color 0.7s ease;
 
     }
-
+     body{
+      background-color: black;
+     }
 
     .download-btn:hover {
       background-color: #fed793;
@@ -30,6 +33,7 @@
       color: black;
 
     }
+    
   </style>
   <title>Srikanth's Portfolio</title>
 
@@ -46,7 +50,7 @@
 <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,600&display=swap" rel="stylesheet">
 <//head>
 
-<body bgcolor="black">
+<body >
 
   <!--
     - #MAIN
@@ -180,7 +184,12 @@
               <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png" alt="LeetCode Logo" style="width: 24px; height: 24px;">
             </a>
           </li>
-      
+          
+          
+          
+
+
+
         </ul>
 
       </div>
@@ -213,9 +222,9 @@
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
-          <!--<li class="navbar-item">
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>-->
+          </li>
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Project</button>
@@ -553,15 +562,14 @@
         </header>
 
 
-        <!-- <a href="Shivam_Javiya_resume.pdf" class="download-btn" download> 📎 &nbsp; Download CV</a> -->
+        <!-- <a href="Srikanth_raparthi1.pdf" class="download-btn" download> 📎 &nbsp; Download CV</a> -->
 
 
 
-        <a href="Resume_Srikanth.pdf" class="download-btn" target="_blank" download>
-  <img src="./assets/images/icon-resume.png" alt="Icon" class="icon">
-  <p> Download CV </p>
-</a>
-
+        <a href="SriKanth_Resume.pdf" class="download-btn" download>
+          <img src="./assets/images/icon-resume.png" alt="Icon" class="icon">
+          <p>Download CV</p>
+        </a>
 
 
         <br>
@@ -626,7 +634,7 @@
             </li>
 
           </ol>
-          <!-- 
+          
         </section>
 
         <section class="timeline"> 
@@ -641,49 +649,35 @@
 
           <ol class="timeline-list">
 
+            
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">QA Production Support - Intern</h4>
 
-              <span>2015 — Present</span>
+              <span>2025,Feb — Present</span>
 
               <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+                QA Production Support involves monitoring, troubleshooting, and resolving issues in live applications,
+                 ensuring system stability, performing root cause analysis, and collaborating with teams to maintain seamless 
+                 application performance.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
+              <h4 class="h4 timeline-item-title">FULL STACK WEB DEVELOPMENT IN MERN - Intern</h4>
 
-              <span>2013 — 2015</span>
+              <span>2024,Jan — 2024,April</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Full Stack Web Development in MERN uses MongoDB, Express.js, React.js, and Node.js to build
+                 dynamic web applications, offering a unified JavaScript environment for both frontend and backend development.
               </p>
 
             </li>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol> -->
+          </ol>
 
         </section>
 
@@ -757,6 +751,18 @@
               </div>
 
             </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git & github</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
 
           </ul>
 
@@ -777,232 +783,163 @@
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
-
+      
         <section class="projects">
-
+      
           <ul class="filter-list">
-
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
-
+            <li class="filter-item">
+              <button data-filter-btn>Certification</button>
+            </li>
             <li class="filter-item">
               <button data-filter-btn>Web design</button>
             </li>
-
             <li class="filter-item">
               <button data-filter-btn>Applications</button>
             </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
           </ul>
-
+      
           <div class="filter-select-box">
-
             <button class="filter-select" data-select>
-
               <div class="select-value" data-selecct-value>Select category</div>
-
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
               </div>
-
             </button>
-
             <ul class="select-list">
-
               <li class="select-item">
                 <button data-select-item>All</button>
               </li>
-
+              <li class="select-item">
+                <button data-select-item>Certification</button>
+              </li>
               <li class="select-item">
                 <button data-select-item>Web design</button>
               </li>
-
               <li class="select-item">
                 <button data-select-item>Applications</button>
               </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
             </ul>
-
           </div>
-
+      
           <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
+      
+            <li class="project-item active" data-filter-item data-category="certification">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="https://media.licdn.com/dms/image/v2/D5622AQEqa_d9y0NmBw/feedshare-shrink_800/feedshare-shrink_800/0/1713874421192?e=1746057600&v=beta&t=1-eYf1lEnZWAsG10jbub_J63DtE3iya7xY9-Jun4VSo" alt="EY Building a better working world CERTIFICATE OF APPRECIATION<" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
+                <h3 class="project-title">EY
+                  <sub>Building a better working world</sub>
+                  CERTIFICATE OF APPRECIATION</h3>
+                <p class="project-category">Certification</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="certification">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="https://media.licdn.com/dms/image/v2/D5622AQFYImif9meTmQ/feedshare-shrink_800/feedshare-shrink_800/0/1714839093804?e=1746057600&v=beta&t=LjJhL6hWbOE2QDMF-HTuxbLm5d5el3psERnPQmz4AXM" alt="Arrival Certificate" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
+                <h3 class="project-title">FULL STACK WEB DEVELOPMENT IN MERN</h3>
+                <p class="project-category">Certification</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item active" data-filter-item data-category="certification">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="https://moonshot.scaler.com/s/image/li/jre9A-tYJ4?scope=body" alt="React js" loading="lazy">
                 </figure>
+                <h3 class="project-title">Reactjs from Scaler</h3>
+                <p class="project-category">Certification</p>
+              </a>
+            </li>
 
+            <li class="project-item active" data-filter-item data-category="certification">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="https://media.licdn.com/dms/image/v2/D5622AQHSwoKp_Alvdg/feedshare-shrink_1280/feedshare-shrink_1280/0/1706806262988?e=1746057600&v=beta&t=1WTnDfEjI2Xre9dk053iX33jR5tERRVcJqop9WL8cvk" alt=" Hackathon challenge" loading="lazy">
+                </figure>
+                <h3 class="project-title"> Xylem India Hackathon challenge 2023 </h3>
+                <p class="project-category">Certification</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="https://w3layouts.b-cdn.net//wp-content/uploads/2021/12/Edu-School-Website-Template-1-scaled.jpg" alt="school website" loading="lazy">
+                </figure>
+                <h3 class="project-title">Website-for-School</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="Fundo" loading="lazy">
+                </figure>
                 <h3 class="project-title">Fundo</h3>
-
                 <p class="project-category">Web design</p>
-
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
+      
+            <li class="project-item active" data-filter-item data-category="applications">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/project-4.png" alt="Brawlhalla" loading="lazy">
                 </figure>
-
                 <h3 class="project-title">Brawlhalla</h3>
-
                 <p class="project-category">Applications</p>
-
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
+      
+            <li class="project-item active" data-filter-item data-category="web design">
               <a href="#">
-
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/project-5.png" alt="DSM." loading="lazy">
                 </figure>
-
                 <h3 class="project-title">DSM.</h3>
-
                 <p class="project-category">Web design</p>
-
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
+      
+            
+      
           </ul>
-
+      
         </section>
-
+      
       </article>
+      
 
 
 
@@ -1083,7 +1020,7 @@
 
               </a>
             </li>
-             <li class="project-post-item">
+            <li class="project-post-item">
               <a href="https://github.com/Srikanthraparthi/Bank_Atm" target="_blank">
 
                 <figure class="project-banner-box">
@@ -1137,21 +1074,21 @@
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-       <section class="mapbox" data-mapbox>
-  <figure>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7612757.276041522!2d75.857725!3d17.387140!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana%2C%20India!5e0!3m2!1sen!2sbd!4v1703536400000!5m2!1sen!2sbd"
-      width="400" height="300" loading="lazy"></iframe>
-  </figure>
-</section>
-
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7612757.276041522!2d75.857725!3d17.387140!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana%2C%20India!5e0!3m2!1sen!2sbd!4v1703536400000!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        
 
 
         <section class="contact-form">
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-         <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -1174,9 +1111,7 @@
 
     </div>
 
-
   </main>
- 
 
 
 
